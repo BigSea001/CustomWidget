@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleProgressView">
+        <attr name="inner_circle_size" format="dimension|reference"/>
+        <attr name="inner_text_size" format="dimension|reference"/>
+        <attr name="inner_circle_color" format="color|reference"/>
+        <attr name="inner_text_color" format="color|reference"/>
+        <attr name="stroke_width" format="dimension|reference"/>
+        <attr name="stroke_color" format="color|reference"/>
+        <attr name="stroke_margin" format="dimension|reference"/>
+        <attr name="current_progress" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="ClearEditText">
+
+    </declare-styleable>
+</resources>

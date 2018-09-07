@@ -8,7 +8,7 @@
 
 
     <Button
-        android:text="跳转"
+        android:text="查看菊花转动"
         android:onClick="jump"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

@@ -1,11 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:gravity="center"
+    android:orientation="horizontal" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.dahai.demo.IOSLoadingView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_height="match_parent">
+        <com.dahai.demo.widget.IOSLoadingView
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <com.dahai.demo.widget.LoadingView
+            android:id="@+id/loadingView"
+            android:layout_width="40dp"
+            android:background="#ccc"
+            android:layout_marginTop="10dp"
+            android:layout_height="40dp" />
+
+        <com.dahai.demo.widget.CircleProgressView
+            android:id="@+id/progressView"
+            android:layout_width="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="120dp" />
+
+        <com.dahai.demo.widget.CountdownProgressBar
+            android:id="@+id/countDown"
+            android:layout_width="60dp"
+            android:layout_height="30dp" />
+
+        <com.dahai.demo.widget.ClearEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <com.dahai.demo.widget.CharIndexView
+        android:id="@+id/charIndexView"
+        android:layout_width="30dp"
+        android:layout_height="match_parent" />
 
 </LinearLayout>
